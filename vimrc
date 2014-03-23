@@ -1,6 +1,9 @@
 " don't bother with vi compatibility
 set nocompatible
 
+" disable the bell sound
+set vb t_vb=
+
 " enable syntax highlighting
 syntax enable
 
