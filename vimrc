@@ -16,6 +16,8 @@ if filereadable(expand("~/.vimrc.bundles"))
   source ~/.vimrc.bundles.local
 endif
 
+source ~/.vim/snippets/support_functions.vim
+
 " ensure ftdetect et al work by including this after the Vundle stuff
 filetype plugin indent on
 
